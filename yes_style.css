@@ -1,0 +1,31 @@
+.header_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.gif_container {
+    position: relative; /* Make the container relative to allow absolute positioning of the text */
+    margin-top: 20px; /* Add margin to separate the GIF container from the photos */
+}
+
+.gif_container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative; /* Make the container relative to allow absolute positioning of the text */
+    display: flex;
+    flex-direction: row; /* Set flex-direction to row for horizontal layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
